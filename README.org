@@ -27,6 +27,6 @@
    Working on the execellent [[https://github.com/amdt/vim-niji][vim-niji]] and working with [[https://github.com/tpope/vim-endwise][vim-endwise]] has
    helped me learn more vim script. Thanks to both of those authors.
 ** License
-   Same as vim itself. See:
-   http://vimdoc.sourceforge.net/htmldoc/uganda.html#license
-   Or `:help license` from within vim.
+   Copyright © Joshua Hoff. Same license as vim itself. See:
+   http://vimdoc.sourceforge.net/htmldoc/uganda.html#license Or `:help license`
+   from within vim.
