@@ -8,9 +8,9 @@ if !exists('g:stopsign_trigger')
 endif
 
 let s:stopsign_replacement_defaults = {
-      \ 'javascript': 'debugger;',
+      \ 'javascript': 'debugger',
       \ 'python': 'import pdb; pdb.set_trace()',
-      \ 'ruby': "require 'pry'; binding.pry;"
+      \ 'ruby': "require 'pry'; binding.pry"
       \ }
 
 if exists('g:stopsign_replacements')
