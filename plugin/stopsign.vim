@@ -9,12 +9,12 @@ endif
 
 let s:stopsign_replacement_defaults = {
       \ 'coffee': 'debugger',
-      \ 'eruby': "<% require 'pry'; binding.pry %>",
-      \ 'haml': "\- require 'pry'; binding.pry",
-      \ 'javascript': 'debugger',
-      \ 'python': 'import pdb; pdb.set_trace()',
-      \ 'ruby': "require 'pry'; binding.pry",
-      \ 'slim': "\- require 'pry'; binding.pry",
+      \ 'eruby': "<% require 'pry'; binding.pry; %>",
+      \ 'haml': "\- require 'pry'; binding.pry;",
+      \ 'javascript': 'debugger;',
+      \ 'python': 'import pdb; pdb.set_trace();',
+      \ 'ruby': "require 'pry'; binding.pry;",
+      \ 'slim': "\- require 'pry'; binding.pry;",
       \ }
 
 if exists('g:stopsign_replacements')
