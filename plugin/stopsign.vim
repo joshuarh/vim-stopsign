@@ -11,6 +11,7 @@ let s:stopsign_replacement_defaults = {
       \ 'coffee': 'debugger',
       \ 'eruby': "<% require 'pry'; binding.pry; %>",
       \ 'haml': "\- require 'pry'; binding.pry;",
+      \ 'html': "debugger;",
       \ 'javascript': 'debugger;',
       \ 'python': 'import pdb; pdb.set_trace();',
       \ 'ruby': "require 'pry'; binding.pry;",
